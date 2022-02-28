@@ -86,6 +86,4 @@ print(imieWielkie.capitalize()+nazwiskoWielkie.capitalize())
 znaki = "ciag znaków"
 liczba = 0.0
 kod = 0xDE
-print(znaki)
-print(liczba)
-print(hex(kod))
+print('To jest ciąg znaków: {0:s},to jest liczba zmiennoprzecinkowa: {1:.2f}, a to jest hex: {2:X}'.format(znaki,liczba,kod))
